@@ -1,0 +1,22 @@
+﻿<Window x:Class="Final_Project.Stages"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Final_Project"
+        mc:Ignorable="d"
+        Title="Stages" Height="932" Width="430">
+    <Grid Background="LightSeaGreen">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="9*"/>
+            <RowDefinition Height="44*"/>
+        </Grid.RowDefinitions>
+        <Rectangle Fill="LightYellow" HorizontalAlignment="Left" Height="100" Stroke="Black" VerticalAlignment="Top" Width="422"/>
+        <TextBlock x:Name="turnirime" HorizontalAlignment="Left" FontSize="34" FontFamily="Montserrat" Margin="9,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="54" Width="397" TextAlignment="Center"/>
+        <Button Content="Group Stage" Background="AliceBlue" FontFamily="Montserrat" FontSize="45" HorizontalAlignment="Left" Margin="70,110,0,0" Grid.Row="1" VerticalAlignment="Top" Width="301" Height="75" Click="Button_Click"/>
+        <Button Content="Knockout stage" Background="AliceBlue" FontFamily="Montserrat" FontSize="35" HorizontalAlignment="Left" Margin="70,456,0,0" Grid.Row="1" VerticalAlignment="Top" Width="301" Height="75" Click="Button_Click1"/>
+        <Image HorizontalAlignment="Left" Height="146" VerticalAlignment="Top" Width="223" Margin="239,614,-40,-12" Source="tourdule-logo-removebg-preview (1).png" Grid.Row="1"/>
+
+
+    </Grid>
+</Window>

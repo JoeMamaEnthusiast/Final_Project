@@ -1,0 +1,24 @@
+﻿<Window x:Class="Final_Project.ChooseYourTeams"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Final_Project"
+        mc:Ignorable="d"
+        Title="ChooseYourTeams" Height="932" Width="430">
+    <Grid Background="{DynamicResource {x:Static SystemColors.MenuHighlightBrushKey}}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="106*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="105*"/>
+        </Grid.ColumnDefinitions>
+        <Rectangle Fill="#FFB6FFA4" HorizontalAlignment="Left" Height="130" Stroke="#CC398378" VerticalAlignment="Top" Width="420" Grid.ColumnSpan="3"/>
+        <Label FontFamily="Montserrat" FontSize="50" Content="Choose number&#xD;&#xA;      of teams" HorizontalAlignment="Right" VerticalAlignment="Top" Height="140" Width="417" Grid.ColumnSpan="3" Margin="0,0,3,0"/>
+        <Image HorizontalAlignment="Left" Height="146" VerticalAlignment="Top" Width="223" Margin="33,767,-46,-12" Source="tourdule-logo-removebg-preview (1).png" Grid.Column="2"/>
+        <Button x:Name="osemotbora" Content="8 teams"  HorizontalAlignment="Left" Margin="80,338,0,0" Foreground=" white" VerticalAlignment="Top" Height="56" FontSize="35" FontFamily="Montserrat" Background="#FF398378" Width="284" Click="Button_Click" Grid.ColumnSpan="3" BorderBrush="{DynamicResource {x:Static SystemColors.WindowTextBrushKey}}"/>
+        <Button x:Name="shestnaiseotbora" Content="16 teams"  HorizontalAlignment="Left" Margin="80,584,0,0" Foreground=" white" VerticalAlignment="Top" Height="56" FontSize="35" FontFamily="Montserrat" Background="#FF398378" Width="284" Click="Button_Click1" Grid.ColumnSpan="3" BorderBrush="{DynamicResource {x:Static SystemColors.WindowTextBrushKey}}"/>
+
+
+
+    </Grid>
+</Window>
